@@ -1,0 +1,26 @@
+{
+  "name": "terminus-plugin-project/terminus-s3-sync-plugin",
+  "description": "Terminus plugin to sync Pantheon backups with S3 buckets",
+  "authors": [
+      {
+          "name": "Sean Dietrich",
+          "email": "sean.e.dietrich@gmail.com"
+      }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "aws/aws-sdk-php": "^3.21"
+  },
+  "type": "terminus-plugin",
+  "require": {
+    "php": ">=5.4"
+  },
+  "autoload": {
+    "psr-4": { "Pantheon\\TerminusFiler\\": "src" }
+  },
+  "extra": {
+    "terminus": {
+      "compatible-version": "^1"
+    }
+  }
+}
