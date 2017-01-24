@@ -1,2 +1,6 @@
-# terminus-s3-sync-plugin
-Plugin to sync backups with S3
+# Terminus S3 Sync Plugin
+Plugin to sync a site's backups with an AWS S3 Bucket
+
+## Installation
+
+## Help

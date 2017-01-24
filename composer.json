@@ -8,15 +8,13 @@
       }
   ],
   "minimum-stability": "dev",
-  "require": {
-    "aws/aws-sdk-php": "^3.21"
-  },
   "type": "terminus-plugin",
   "require": {
-    "php": ">=5.4"
+    "php": ">=5.4",
+    "aws/aws-sdk-php": "^3.21"
   },
   "autoload": {
-    "psr-4": { "Pantheon\\TerminusFiler\\": "src" }
+    "psr-4": { "Pantheon\\TerminusS3Sync\\": "src" }
   },
   "extra": {
     "terminus": {
